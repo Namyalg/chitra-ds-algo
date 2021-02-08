@@ -10,6 +10,8 @@ This is the repository that contains all the details and timeline to work with d
 
 ## Tech Stack
 C++
+-  https://leetcode.com/discuss/general-discussion/1050391/must-do-dynamic-programming-problems-category-wise
+For DP
 
 ## Pre-requisites
 Basic knowledge of C++ is required.
