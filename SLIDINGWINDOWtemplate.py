@@ -65,3 +65,27 @@ class Solution:
                 i += 1
                 j += 1
         return mdns
+
+______________________________________________________________________________________
+#Variable sliding window
+
+#Here u have to satisfy the condition, nt based on the window size
+
+start = 0
+end = 0
+
+
+
+while end < len(nums):
+        if < condiion:
+                end += 1
+        if  === condition:
+                store the result
+                end += 1
+        if > conditin:
+                while condition > k:
+                        compute the condition
+                        strt += 1  
+                end += 1
+
+
