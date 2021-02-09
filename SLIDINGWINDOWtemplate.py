@@ -35,3 +35,33 @@
                 s = s - a[i]
                 i += 1
                 j += 1
+
+                
+               _________________________________________
+        #very slow but still passes, this is brute force, get the window and then sort and return mid
+
+#more optimised solutin using heap canbe dpne
+#this is the brute force for finding median
+O(n*nlogn)
+
+#better thn brute force
+#which is O(n*n*n*logn)
+class Solution:
+    def medianSlidingWindow(self, nums: List[int], k: int) -> List[float]:
+        i = 0
+        j = 0
+        mdns = []
+        while j < len(nums):
+            if j - i + 1 < k:
+                j += 1
+            elif j - i + 1 == k:
+                f = sorted(nums[i : j+1])
+                if len(f) & 1:
+                    mdns.append(f[len(f)//2])
+                else:
+                    m1 = f[len(f)//2]
+                    m2 = f[len(f)//2 - 1]
+                    mdns.append((m1+m2)/2)
+                i += 1
+                j += 1
+        return mdns
