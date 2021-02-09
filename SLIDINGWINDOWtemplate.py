@@ -2,6 +2,9 @@
         #end is j
         #definite window size is k
         
+        For subarray and substring questions
+        O(n) approach is given by this method
+        
         i = 0
         j = 0
         k = 3
