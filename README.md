@@ -2,20 +2,6 @@
 # Data Structures and Algorithms
 Main Repository for WooTech Mentorship Programme
 
-## Mentor: 
-***Chitra Singla***
-
-## Mentees: 
-- ***Anmol Kaur***
-- ***Chetna Gola***
-- ***Namrata Das***
-- ***Namya LG***
-- ***Jahnvi Seth***
-- ***Tanisha Pandey***
-
-## Abstract
-This is the repository that contains all the details and timeline to work with during the mentorship programme. The length of the mentorship is around 8 weeks. The project is all about doing Data Structures and Algorithms, they are very important to crack any interview. So students must be thorough with that and need guidance on how to proceed with them. We will be learning all the concepts needed and practice a lot of questions. 
-
 ## Tech Stack
 C++
 -  https://leetcode.com/discuss/general-discussion/1050391/must-do-dynamic-programming-problems-category-wise
@@ -49,28 +35,6 @@ Basic knowledge of C++ is required.
 - [Narasimha Karumanchi DSA Made Easy](https://github.com/MethkupalliVasanth/Books/blob/master/Narasimha%20Karumanchi%20-%20Data%20structures%20and%20algorithms%20made%20easy%20(0%2C%20CareerMonk).pdf)
 - [CLRS](https://www.amazon.in/Introduction-Algorithms-Eastern-Economy-Thomas/dp/8120340078)
 
-## Rough timeline & task breakdown
-### Week 1 - Basics of Programming
-Getting started with C++
+Must DO DP :
 
-### Week 2 - Arrays
-Doing basic questions on puzzles and learning arrays 
-
-### Week 3 - Strings and Greedy
-Learning strings and some manipulation on strings and arrays
-
-### Week 4 - Linked List, Stacks & Queues
-Getting started with Linked List, Stacks and Queues
-
-### Week 5 - Recursion and Backtracking
-Doing Recursion and Backtracking
-
-### Week 6 - Hashmaps, Heaps & Tries
-Learning some concepts of Heaps, Tries and Hashmaps
-
-### Week 7 - Trees & Graphs
-Doing basics of Trees and Graphs
-
-### Week 8 - Dynamic Programming
-Getting started with Dynamic Programming
-
+Dynamic programming(https://leetcode.com/discuss/general-discussion/1050391/must-do-dynamic-programming-problems-category-wise)
