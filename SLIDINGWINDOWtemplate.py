@@ -89,3 +89,66 @@ while end < len(nums):
                 end += 1
 
 
+                
+                
+                
+     SLIDING WINDOW IS ALSO CLOSELY RELATED TO PREFIX SUM AND HASHMAP, IT IS AN ALTERNATIVE TO THIS APPROACH
+
+#in this sliding window problem WHEN DOING PREFIX SUM ALWAYS ADD SUM OF 0 in the beginning
+
+#as if the sum of the first few elements itself is the target it wont be accountted for
+
+class Solution:
+    def numSubarraysWithSum(self, A: List[int], S: int) -> int:
+        sums = dict({0: 1})
+        prf = 0
+        cnt = 0
+        
+        USING A FOR LOOP
+        
+        for i in range(len(A)):
+            prf += A[i]
+            if prf - S in sums:
+                cnt += sums[prf - S]
+            if prf not in sums:
+                sums[prf] = 0
+            
+    
+
+VARIABLE SIZE WINDOW
+
+     
+        
+        left = 0
+        s = 0
+        res = float('inf')
+        
+        KEEP INCREMENTING TAIL PTR AND WHEN CONDITION IS VIOLATED MOVE THE HEAD
+        
+        RUNS IN o(N) TIME AND HAS A SPACE OF o(1)
+        for i in range(len(nums)):
+            s += nums[i]
+            while s >= target:
+                res = min(res, i + 1 - left)
+                s -= nums[left]
+                left += 1
+        return 0 if res == float('inf') else res'''
+        
+        s = 0
+        j = 0
+        i = 0
+        res = float('inf')
+        while i < len(nums):
+            s += nums[i]
+            while s >= target:
+                res = min(res, i + 1 - j)
+                s -= nums[j]
+                j += 1 
+            i += 1
+        return 0 if res == float('inf') else res
+        
+        
+        
+          
+            sums[prf] += 1
+        return cnt
