@@ -1,0 +1,16 @@
+                                  Adjacency matrix                                  Adjacency list
+
+Space                               O(m*n)                                          O(|V| + |E|)
+
+Time                                O(m*n)                                          O(|V|)
+
+GRAPH IS A CONNECTION OF EDGES AND VERTICES
+
+Directed and undirected 
+
+Directed is always symmetric, or a digraph
+
+Weighted and Un-weighted
+
+The edges have a weight , This can be represented as the value in the adjacency matrix, or a thrid entry in the list
+
